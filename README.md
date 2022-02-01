@@ -124,6 +124,7 @@ Following are all the options along with their descriptions (also available with
 |-eI EXTENSIONSINTERFACE| --extensionsinterface EXTENSIONSINTERFACE|	Manually choose an interface that supports monitor mode for running the extensions. Example: -eI wlan1|
 |-aI APINTERFACE| --apinterface APINTERFACE|	Manually choose an interface that supports AP mode for spawning an AP. Example: -aI wlan0|
 |-pI INTERFACE| --protectinterface INTERFACE| Specify one or more interfaces that will have their connection protected from being managed by NetworkManager.|
+|-iI INTERFACE| --internetinterface INTERFACE| Specify interface connected to internet, should be used in conjunction with -pI|
 |-kN| --keepnetworkmanager| Do not kill NetworkManager.|
 |-nE| --noextensions|	Do not load any extensions.|
 |-e ESSID| --essid ESSID|	Enter the ESSID of the rogue Access Point. This option will skip Access Point selection phase. Example: --essid 'Free WiFi'|
